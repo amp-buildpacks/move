@@ -22,10 +22,6 @@ api = "0.7"
     version = "0.1.0"
 
   [[order.group]]
-    id = "amp-buildpacks/starcoin-cli"
-    version = "0.1.0"
-
-  [[order.group]]
     id = "amp-buildpacks/sui-cli"
     version = "0.1.0"
 
