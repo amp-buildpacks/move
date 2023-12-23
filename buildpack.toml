@@ -1,0 +1,35 @@
+api = "0.7"
+
+[buildpack]
+  description = "A Cloud Native Buildpack with an order definition suitable for Move applications"
+  homepage = "https://github.com/amp-buildpacks/move"
+  id = "amp-buildpacks/move"
+  keywords = ["move", "composite"]
+  name = "Move Build Pack"
+  version = "{{.version}}"
+
+  [[buildpack.licenses]]
+    type = "Apache-2.0"
+    uri = "https://github.com/amp-buildpacks/move/blob/main/LICENSE"
+
+[metadata]
+  include-files = ["LICENSE", "README.md", "buildpack.toml"]
+
+[[order]]
+
+  [[order.group]]
+    id = "amp-buildpacks/aptos-cli"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "amp-buildpacks/starcoin-cli"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "amp-buildpacks/sui-cli"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "5.6.8"
