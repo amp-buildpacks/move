@@ -5,8 +5,8 @@ enable the building of a Move-based application.
 
 ## Included Buildpacks
 
-- [`amp-buildpacks/aptos-cli`](https://github.com/amp-buildpacks/aptos-cli)(WIP)
-- [`amp-buildpacks/sui-cli`](https://github.com/amp-buildpacks/sui-cli)(WIP)
+- [`amp-buildpacks/aptos`](https://github.com/amp-buildpacks/aptos)(WIP)
+- [`amp-buildpacks/sui`](https://github.com/amp-buildpacks/sui)(WIP)
 - [`paketo-buildpacks/procfile`](https://github.com/paketo-buildpacks/procfile)
 
 ## tl;dr

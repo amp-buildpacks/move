@@ -1,12 +1,12 @@
 description = "A sample Builder for using Move related CNBs"
 
 [[buildpacks]]
-  id = "amp-buildpacks/aptos-cli"
-  uri = "docker://ghcr.io/amp-buildpacks/aptos-cli:0.1.0"
+  id = "amp-buildpacks/aptos"
+  uri = "docker://ghcr.io/amp-buildpacks/aptos:0.1.0"
 
 [[buildpacks]]
-  id = "amp-buildpacks/sui-cli"
-  uri = "docker://ghcr.io/amp-buildpacks/sui-cli:0.1.0"
+  id = "amp-buildpacks/sui"
+  uri = "docker://ghcr.io/amp-buildpacks/sui:0.1.0"
 
 [[buildpacks]]
   id = "paketo-buildpacks/procfile"
@@ -15,10 +15,10 @@ description = "A sample Builder for using Move related CNBs"
 [[order]]
 
   [[order.group]]
-    id = "amp-buildpacks/aptos-cli"
+    id = "amp-buildpacks/aptos"
 
   [[order.group]]
-    id = "amp-buildpacks/sui-cli"
+    id = "amp-buildpacks/sui"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"

@@ -18,11 +18,11 @@ api = "0.7"
 [[order]]
 
   [[order.group]]
-    id = "amp-buildpacks/aptos-cli"
+    id = "amp-buildpacks/aptos"
     version = "0.1.0"
 
   [[order.group]]
-    id = "amp-buildpacks/sui-cli"
+    id = "amp-buildpacks/sui"
     version = "0.1.0"
 
   [[order.group]]
