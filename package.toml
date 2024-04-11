@@ -5,4 +5,4 @@
   uri = "docker://ghcr.io/amp-buildpacks/sui:0.2.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.7.0"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.8.0"
