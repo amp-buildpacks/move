@@ -1,5 +1,5 @@
 [[dependencies]]
-  uri = "docker://ghcr.io/amp-buildpacks/aptos:0.2.9"
+  uri = "docker://ghcr.io/amp-buildpacks/aptos:0.2.11"
 
 [[dependencies]]
   uri = "docker://ghcr.io/amp-buildpacks/sui:0.2.9"
