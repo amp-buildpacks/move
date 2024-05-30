@@ -44,7 +44,7 @@ api = "0.8"
 
   [[order.group]]
     id = "amp-buildpacks/sui"
-    version = "0.2.12"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
