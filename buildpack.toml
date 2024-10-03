@@ -38,7 +38,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.1"
+    version = "5.9.3"
 
 [[order]]
 
@@ -49,4 +49,4 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.1"
+    version = "5.9.3"
