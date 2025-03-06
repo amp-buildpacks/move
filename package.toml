@@ -5,7 +5,7 @@
   uri = "docker://ghcr.io/amp-buildpacks/sui:0.4.13"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.10.2"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.10.3"
 
 [[targets]]
   arch = "amd64"
