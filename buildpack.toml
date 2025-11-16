@@ -33,7 +33,7 @@ api = "0.8"
 
   [[order.group]]
     id = "amp-buildpacks/aptos"
-    version = "0.5.10"
+    version = "0.5.12"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
